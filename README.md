@@ -1,4 +1,4 @@
-# Pathfinding
+# DPathfinding
 
 Basic implementation of pathfinding algorithms. Including:
 1. [Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
