@@ -1,5 +1,5 @@
 ﻿
-namespace Pathfinding.Algorithms;
+namespace DPathfinding.Algorithms;
 /// <summary>
 /// A* algorithm implementation
 /// <see href="https://en.wikipedia.org/wiki/A*_search_algorithm">

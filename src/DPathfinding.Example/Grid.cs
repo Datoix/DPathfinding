@@ -1,7 +1,7 @@
 ﻿
-using Pathfinding.Algorithms;
+using DPathfinding.Algorithms;
 
-namespace Pathfinding.Example;
+namespace DPathfinding.Example;
 public class Grid {
     private readonly Graph _graph;
     private readonly Cell[,] _grid;

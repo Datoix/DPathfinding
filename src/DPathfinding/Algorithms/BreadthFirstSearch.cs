@@ -1,5 +1,5 @@
 ﻿
-namespace Pathfinding.Algorithms;
+namespace DPathfinding.Algorithms;
 /// <summary>
 /// BFS algorithm implementation
 /// <see href="https://en.wikipedia.org/wiki/Breadth-first_search">

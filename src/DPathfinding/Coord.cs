@@ -1,5 +1,5 @@
 ﻿
-namespace Pathfinding;
+namespace DPathfinding;
 /// <summary>
 /// Coord struct representing position in grid
 /// </summary>

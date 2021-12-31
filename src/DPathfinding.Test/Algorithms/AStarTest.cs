@@ -1,9 +1,9 @@
 ﻿
 using NUnit.Framework;
-using Pathfinding.Algorithms;
+using DPathfinding.Algorithms;
 
-namespace Pathfinding.Test.Algorithms;
-public class DijkstraTest {
+namespace DPathfinding.Test.Algorithms;
+public class AStarTest {
     private Graph _small;
     private Graph _large;
     private Graph _noPath;
@@ -17,24 +17,24 @@ public class DijkstraTest {
 
     [Test]
     public void Small() {
-        var dijkstra = new Dijkstra(_small);
-        var path = dijkstra.GetPath();
+        var aStar = new AStar(_small);
+        var path = aStar.GetPath();
 
         Assert.AreEqual(7, path?.Count());
     }
 
     [Test]
     public void Large() {
-        var dijkstra = new Dijkstra(_large);
-        var path = dijkstra.GetPath();
+        var aStar = new AStar(_large);
+        var path = aStar.GetPath();
 
         Assert.IsTrue(path?.Count() > 0);
     }
 
     [Test]
     public void NoPath() {
-        var dijkstra = new Dijkstra(_noPath);
-        var path = dijkstra.GetPath();
+        var aStar = new AStar(_noPath);
+        var path = aStar.GetPath();
 
         Assert.IsNull(path);
     }

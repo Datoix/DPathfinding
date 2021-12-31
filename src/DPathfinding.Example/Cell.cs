@@ -1,5 +1,5 @@
 ﻿
-namespace Pathfinding.Example;
+namespace DPathfinding.Example;
 public class Cell {
     private static readonly ConsoleColor DefaultColor = ConsoleColor.Gray;
 

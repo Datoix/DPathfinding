@@ -1,5 +1,5 @@
 ﻿
-namespace Pathfinding;
+namespace DPathfinding;
 /// <summary>
 /// Node class
 /// </summary>

@@ -1,5 +1,5 @@
 ﻿
-namespace Pathfinding.Algorithms;
+namespace DPathfinding.Algorithms;
 /// <summary>
 /// Dijkstra's algorithm implementation
 /// <see href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">

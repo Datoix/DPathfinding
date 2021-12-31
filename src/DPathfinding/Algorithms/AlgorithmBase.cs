@@ -1,5 +1,5 @@
 ﻿
-namespace Pathfinding.Algorithms;
+namespace DPathfinding.Algorithms;
 /// <summary>
 /// Base class for all algorithms
 /// </summary>

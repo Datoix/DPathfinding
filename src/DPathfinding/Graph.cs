@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Numerics;
 
-namespace Pathfinding;
+namespace DPathfinding;
 /// <summary>
 /// Graph class
 /// </summary>

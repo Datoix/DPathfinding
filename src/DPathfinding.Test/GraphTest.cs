@@ -1,7 +1,7 @@
 ﻿
 using NUnit.Framework;
 
-namespace Pathfinding.Test;
+namespace DPathfinding.Test;
 public class GraphTest {
     private Graph _graph;
 

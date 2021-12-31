@@ -1,8 +1,8 @@
 ﻿
 using NUnit.Framework;
-using Pathfinding.Algorithms;
+using DPathfinding.Algorithms;
 
-namespace Pathfinding.Test.Algorithms;
+namespace DPathfinding.Test.Algorithms;
 public class BreadthFirstSearchTest {
     private Graph _small;
     private Graph _large;
