@@ -1,6 +1,6 @@
 # DPathfinding
 
-Basic implementation of pathfinding algorithms. Including:
+Simple implementation of pathfinding algorithms. Including:
 1. [Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 2. [A* (A Star)](https://en.wikipedia.org/wiki/A*_search_algorithm)
 3. [BFS (Breadth First Search)](https://en.wikipedia.org/wiki/Breadth-first_search)
